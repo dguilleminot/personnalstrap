@@ -1,8 +1,8 @@
 {
   "name": "personnalstrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "css style using flex",
-  "main": "./sass/index.scss",
+  "main": "sass/index.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
