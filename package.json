@@ -1,7 +1,8 @@
 {
   "name": "personnalstrap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "css style using flex",
+  "main": "eyeglass-exports.js",
   "main": "sass/index.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,10 +23,6 @@
   "dependencies": {
     "bootstrap-sass": "^3.4.1",
     "normalize-scss": "^7.0.1"
-  },
-  "eyeglass": {
-    "exports": "eyeglass-exports.js",
-    "needs": "^0.7.1"
   },
   "devDependencies": {
     "eyeglass": "^2.4.1",
