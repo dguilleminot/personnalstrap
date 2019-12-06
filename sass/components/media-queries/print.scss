@@ -1,0 +1,26 @@
+/* quick print reset */
+@media print {
+  * {
+    background: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  body {
+    width: auto;
+    margin: auto;
+    font-family: serif;
+    font-size: 12pt;
+  }
+  /* Google Gmap3 bug fix on images */
+  .gm-style img {
+    height: 100%;
+  }
+  :not(.gm-style) img {
+    height: auto;
+  }
+  .gm-style img,
+  .gmnoscreen img,
+  .gmnoprint img {
+    max-width: none !important;
+  }
+}

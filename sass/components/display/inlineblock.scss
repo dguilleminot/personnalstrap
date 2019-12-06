@@ -1,0 +1,22 @@
+/* DISPLAY */
+  // inline-block
+.inlineblock {display: inline-block;}
+.inlineblockchild > * {display: inline-block;}
+.align-start,
+.inlineblock.align-start {vertical-align: top;}
+.align-center,
+.inlineblock.align-center {vertical-align: middle;}
+.align-end,
+.inlineblock.align-end {vertical-align: bottom;}
+.align-base,
+.inlineblock.align-base {vertical-align: baseline;}
+
+  // align horizontal
+.justify-start,
+.inlineblock.justify-start {text-align: left;}
+.justify-center,
+.inlineblock.justify-center {text-align: center;}
+.justify-end,
+.inlineblock.justify-end {text-align: right;}
+.justify-stretch,
+.inlineblock.justify-stretch {text-align: justify;}

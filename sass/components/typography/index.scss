@@ -1,0 +1,41 @@
+// TYPOGRAPHY
+  // global
+html {font-size: 62.5%;font-size: calc(1em * .625);-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;}
+body {font-size: 1.4em;background-color: #ffffff;color: #000000;font-family: Helvetica, Arial, sans-serif;line-height: 1.5;}
+
+  // link
+a {color: #333333;text-decoration: none;}
+a:hover,
+a:focus,
+a:active {color: #000000;}
+a:focus {outline: none;box-shadow:inset 0 0 2px rgba(0,0,0,.6);}
+
+  // title
+.ttl-xxl {font-size: 3.2rem;font-family: Helvetica, Arial, sans-serif;}
+.ttl-xl {font-size: 2.8rem;font-family: Helvetica, Arial, sans-serif;}
+.ttl-l {font-size: 2.4rem;}
+.ttl-m {font-size: 2rem;}
+.ttl-s {font-size: 1.8rem;}
+.ttl-xs {font-size: 1.6rem;}
+
+  // normal text
+.txt-xxl {font-size: 2rem;}
+.txt-xl {font-size: 1.5rem;}
+.txt-l {font-size: 1.2rem;}
+.txt-m {font-size: 1.4rem;}
+.txt-s {font-size: 0.8rem;}
+.txt-xs {font-size: 0.6rem;}
+
+  //preformated
+code,
+pre,
+samp,
+kbd {white-space: pre-line;white-space: pre-wrap;font-family: Consolas, "DejaVu Sans Mono", Courier, monospace;line-height: normal;}
+
+ // italic
+em,
+.italic,
+address,
+cite,
+i,
+var {font-style: italic;}
